@@ -1,0 +1,50 @@
+a{
+  text-decoration: none;
+}
+
+header>div.webtoon,header>div.home{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 60px;
+  border-bottom: 1px solid rgb(221,221,221);
+  align-items: center;
+  
+}
+header>div.webtoon>div.webtoon-left>a.webnovel, header>div.webtoon>div.webtoon-left>a.series{
+  color: rgb(221,221,221);
+  padding-left: 5px;
+  font-size: smaller;
+}
+header>div.webtoon>div.webtoon-right{
+  display: flex;
+  align-items: baseline;
+}
+header>div.webtoon>div.webtoon-right>div.search{
+  border: 1px solid rgb(221,221,221);
+  padding: 3px;
+  color: rgb(221,221,221);
+  border-radius: 3px;
+  display: flex;
+}
+
+header>div.webtoon>div.webtoon-right>div.search:hover{
+  outline: 2px solid black;
+}
+header>div.webtoon>div.webtoon-right>div.search>input{
+  width: 250px;
+  border: 0px;
+}
+header>div.webtoon>div.webtoon-right>div.search:hover>input:hover, header>div.webtoon>div.webtoon-right>div.search>input:hover{
+  outline: 0px;
+}
+header>div.webtoon>div.webtoon-right>div.search>i{
+  top: 5px;
+  right: 1px;
+}
+header>div.webtoon>div.webtoon-right>a.login{
+  border: 1px solid black;
+  padding: 1.5px 3px;
+  font-size: 10px;
+  margin:0 15px;
+}
