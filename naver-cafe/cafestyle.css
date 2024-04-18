@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+ position: relative;
+}
+a {
+text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header {
+  border-bottom: 1px solid grey;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  position: sticky;
+}
+header > div.naver {
+  margin: 16%;
+}
+header > div.search {
+  border: 1px solid grey;
+  border-radius: 30px;
+  width: 25%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+header > div.search > input {
+  border-width: 0;
+  outline: 0;
+}
+div.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.second > div {
+  width: 17%;
+}
+div.second > nav {
+  border-right: 1px solid grey;
+  width: 13%;
+  border: 1px solid red;
+}
+div.second > nav > div.menu-main > ul {
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  border: 1px solid blue;
+  padding: 20px;
+  font-size: 18px;
+}
+div.second > nav > div.menu-cafe > ul {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  border: 1px solid yellow;
+  font-size: 13px;
+  padding: 20px;
+}
+div.second > section.main-section {
+  width: 40%;
+  border: 1px solid red;
+}
+div.second > section.side-section {
+  width: 20%;
+  border: 1px solid red;
+}
