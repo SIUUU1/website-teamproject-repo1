@@ -1,3 +1,6 @@
+html{
+  min-width: 1000px;
+}
 a{
   text-decoration: none;
 }
@@ -6,19 +9,37 @@ header>div.webtoon,header>div.home{
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  height: 60px;
+  height: 45px;
   border-bottom: 1px solid rgb(221,221,221);
   align-items: center;
   
 }
+header>div.webtoon>div.webtoon-left{
+  margin: 0 70px;
+  display: flex;
+}
+header>div.webtoon>div.webtoon-left>a{
+  font-size: 12px;
+  margin-right: 5px;
+}
+header>div.webtoon>div.webtoon-left>a.main{
+  align-content: flex-start;
+}
+header>div.webtoon>div.webtoon-left>a.webtoon{
+  font-size: 15px;
+  
+}
 header>div.webtoon>div.webtoon-left>a.webnovel, header>div.webtoon>div.webtoon-left>a.series{
   color: rgb(221,221,221);
-  padding-left: 5px;
-  font-size: smaller;
+  margin-left: 2px;
+  margin-bottom: 3px;
+  align-content: flex-end;
+  font-size: 10px;
 }
 header>div.webtoon>div.webtoon-right{
   display: flex;
   align-items: baseline;
+  margin: 0 70px;
 }
 header>div.webtoon>div.webtoon-right>div.search{
   border: 1px solid rgb(221,221,221);
@@ -26,25 +47,70 @@ header>div.webtoon>div.webtoon-right>div.search{
   color: rgb(221,221,221);
   border-radius: 3px;
   display: flex;
+  position: relative;
 }
 
-header>div.webtoon>div.webtoon-right>div.search:hover{
-  outline: 2px solid black;
+header>div.webtoon>div.webtoon-right>div.search:focus-within{
+outline: 2px solid black;
 }
 header>div.webtoon>div.webtoon-right>div.search>input{
   width: 250px;
   border: 0px;
+  font-size: 13px;
+  padding: 3px;
+
 }
-header>div.webtoon>div.webtoon-right>div.search:hover>input:hover, header>div.webtoon>div.webtoon-right>div.search>input:hover{
+header>div.webtoon>div.webtoon-right>div.search>input{
   outline: 0px;
 }
 header>div.webtoon>div.webtoon-right>div.search>i{
-  top: 5px;
-  right: 1px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  font-size: 15px;
 }
 header>div.webtoon>div.webtoon-right>a.login{
   border: 1px solid black;
-  padding: 1.5px 3px;
-  font-size: 10px;
+  padding: 2px 4px;
+  font-size: 9px;
   margin:0 15px;
+}
+header>div.webtoon>div.webtoon-right>i.bar{
+  font-size: 15px;
+}
+header>div.home>{
+  display: flex;
+  justify-content: space-around;
+}
+header>div.home>div.home-left{
+  margin: 0 0 0 20px;
+  display: flex;
+  height: 45PX;
+  align-content: center;
+  justify-content: flex-start;
+}
+header>div.home>div.home-left>a{
+ padding: 17px 15px;
+ background-color: white;
+ align-content: center;
+ font-size: 12px;
+}
+header>div.home>div.home-left>a.menu1{
+ margin: 0px;
+ background-color: rgb(0,220,100);
+ color: white;
+}
+
+header>div.home>div.home-right{
+  display: flex;
+  height: 37PX;
+  background-color: rgb(0,220,100);
+  align-items: center;
+  padding: 0 27px;
+  border-radius: 5px;
+  margin: 0 20px 0 90px;
+}
+header>div.home>div.home-right>a{
+  font-size: 14px;
+  color: white;
 }
