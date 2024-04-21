@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  padding: 0;
   color: black;
 }
 
@@ -23,6 +22,7 @@ p {
   padding: 0;
 }
 header {
+  background-color: white;
   border-bottom: 1px solid #eeeeee;
   height: 75px;
   display: flex;
@@ -34,7 +34,7 @@ header {
 
 header > div.naver {
   width: 10%;
-  margin-left: 16%;
+  margin-left: 15%;
   font-weight: 500;
   font-size: 23px;
 }
@@ -46,10 +46,10 @@ header > div.naver > a > span {
 
 header > div.search {
   margin-left: 0;
-  margin-right: 630px;
+  margin-right: 31%;
   border: 1px solid #eeeeee;
   border-radius: 30px;
-  width: 17%;
+  width: 20%;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -61,14 +61,14 @@ header > div.search > input {
   border-width: 0;
   width: 70%;
   outline: 0;
-  margin: 15px;
+  margin-left: 5%;
   font-size: 15px;
 }
 
 div.second {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 h1 {
@@ -82,10 +82,13 @@ hr {
 }
 div.second > div {
   width: 17%;
+  /* position: fixed; */
 }
 
 div.second > nav {
+  background-color: white;
   width: 12%;
+  /* position: fixed; */
 }
 
 div.second > nav > div.menu-main > ul {
@@ -225,6 +228,7 @@ article.neighbor > div > div.location > a {
 }
 article.by-subject > nav {
   height: 30px;
+  margin-top: 8px;
 }
 article.by-subject > nav > ul {
   display: flex;
@@ -240,14 +244,142 @@ article.by-subject > nav > ul > li > a {
 article.by-subject > div.cafe-info {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 article.by-subject > div.cafe-info > div > img {
   width: 80px;
   height: 80px;
+  border: 1px solid #eeeeee;
   border-radius: 25px;
 }
+.subject-title {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.subject-title > a > span {
+  font-size: 13px;
+  font-weight: 600;
+}
+.subject-title > a > span:hover {
+  text-decoration: underline;
+}
+.subject-title > a > p {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cafe-grade > a > span {
+  color: #a2a2a2;
+  font-size: 10px;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 25px;
+  width: 20%;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eeeeee;
+  border-radius: 25px;
+  height: 5%;
+  margin-bottom: 20px;
+}
+#login-box {
+  background-color: #03c75a;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 80%;
+  height: 30%;
+  text-align: center;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+#login-other {
+  color: #a2a2a2;
+  font-size: 10px;
+}
+#notice {
+  background-color: #f7f8f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  height: 7%;
+}
+#notice > span > strong {
+  font-size: 13px;
+  margin-left: 20px;
+}
+#notice > p {
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 20px 3px 20px;
+}
+#notice > p:hover {
+  text-decoration: underline;
+}
+#cafe-logo,
+#heart-logo,
+#smart-bot {
+  background-color: #f7f8f9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#cafe-logo > div > img,
+#heart-logo > div > img,
+#smart-bot > div > img {
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+}
+#cafe-logo > span > strong,
+#heart-logo > span > strong,
+#smart-bot > span > strong {
+  font-size: 14px;
+}
+#cafe-logo > span > strong:hover,
+#heart-logo > span > strong:hover,
+#smart-bot > span > strong:hover {
+  text-decoration: underline;
+}
+#ad {
+  margin-bottom: 20px;
+}
+#ad > a > img {
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  width: 100%;
+}
+#report-center {
+  font-size: 14px;
+}
+#report-center:hover {
+  text-decoration: underline;
+}
+footer {
+  font-size: 10px;
+}
+footer > span:hover {
+  text-decoration: underline;
+}
 #buttonLogin {
-  margin-right: 330px;
+  margin-right: 18%;
 }
 
 #buttonLogin > button {
@@ -280,4 +412,30 @@ article.by-subject > div.cafe-info > div > img {
 #black-text {
   color: black;
   font-weight: 400;
+}
+#button-more {
+  margin-top: 20px;
+  text-align: center;
+}
+#button-more > button {
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  font-weight: 400;
+}
+#fix-header {
+  position: sticky;
+  padding-top: 20px;
+  top: -20px;
+}
+.fa-magnifying-glass {
+  color: #03c75a;
+}
+.fa-question {
+  font-size: 10px;
+}
+.fa-caret-down {
+  font-size: 8px;
 }
