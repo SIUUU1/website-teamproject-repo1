@@ -90,6 +90,7 @@ div.second > nav {
   height: 100%;
   position: fixed;
   right: 76%;
+  margin-top: 75px;
 }
 
 div.second > nav > div.menu-main > ul {
@@ -438,9 +439,9 @@ footer > span:hover {
   font-weight: 400;
 }
 #fix-header {
-  position: sticky;
-  padding-top: 1px;
-  top: -1px;
+  position: fixed;
+  height: 75px;
+  width: 100%;
 }
 .fa-magnifying-glass {
   color: #03c75a;
