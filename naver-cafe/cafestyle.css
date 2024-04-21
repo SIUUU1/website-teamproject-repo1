@@ -68,7 +68,7 @@ header > div.search > input {
 div.second {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 h1 {
@@ -82,13 +82,14 @@ hr {
 }
 div.second > div {
   width: 17%;
-  /* position: fixed; */
 }
 
 div.second > nav {
   background-color: white;
   width: 12%;
-  /* position: fixed; */
+  height: 100%;
+  position: fixed;
+  right: 76%;
 }
 
 div.second > nav > div.menu-main > ul {
@@ -107,6 +108,10 @@ div.second > nav > div.menu-main > ul > li {
   width: 100%;
   padding: 5px 0px 5px 30px;
 }
+div.second > nav > div.menu-main > ul > li:hover {
+  background-color: #f7f8f9;
+  border-radius: 10px;
+}
 
 div.second > nav > div.menu-cafe > ul {
   width: 100%;
@@ -122,6 +127,9 @@ div.second > nav > div.menu-cafe > ul {
 div.second > nav > div.menu-cafe > ul > li {
   width: 100%;
   padding-left: 2px;
+}
+div.second > nav > div.menu-cafe > ul > li > a:hover {
+  text-decoration: underline;
 }
 
 div.second > section.main-section {
@@ -235,7 +243,7 @@ article.by-subject > nav > ul {
   justify-content: space-between;
 }
 article.by-subject > nav > ul > li {
-  padding: 8px 3px;
+  padding: 5px 3px;
 }
 article.by-subject > nav > ul > li > a {
   color: #a2a2a2;
@@ -334,28 +342,32 @@ aside {
 #smart-bot {
   background-color: #f7f8f9;
   border-radius: 10px;
+  height: 2.5%;
+  margin-bottom: 20px;
+}
+#cafe-logo > a,
+#heart-logo > a,
+#smart-bot > a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 2%;
-  margin-bottom: 20px;
-  padding: 10px;
+  height: 100%;
 }
-#cafe-logo > div > img,
-#heart-logo > div > img,
-#smart-bot > div > img {
+#cafe-logo > a > div > img,
+#heart-logo > a > div > img,
+#smart-bot > a > div > img {
   margin: 0 10px;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
-#cafe-logo > span > strong,
-#heart-logo > span > strong,
-#smart-bot > span > strong {
+#cafe-logo > a > span > strong,
+#heart-logo > a > span > strong,
+#smart-bot > a > span > strong {
   font-size: 14px;
 }
-#cafe-logo > span > strong:hover,
-#heart-logo > span > strong:hover,
-#smart-bot > span > strong:hover {
+#cafe-logo > a > span > strong:hover,
+#heart-logo > a > span > strong:hover,
+#smart-bot > a > span > strong:hover {
   text-decoration: underline;
 }
 #ad {
@@ -427,8 +439,8 @@ footer > span:hover {
 }
 #fix-header {
   position: sticky;
-  padding-top: 20px;
-  top: -20px;
+  padding-top: 1px;
+  top: -1px;
 }
 .fa-magnifying-glass {
   color: #03c75a;
@@ -438,4 +450,7 @@ footer > span:hover {
 }
 .fa-caret-down {
   font-size: 8px;
+}
+#fix-div {
+  width: 29%;
 }
