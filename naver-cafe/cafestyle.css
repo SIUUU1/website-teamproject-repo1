@@ -17,10 +17,12 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 p {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: white;
   border-bottom: 1px solid #eeeeee;
@@ -32,19 +34,19 @@ header {
   color: black;
 }
 
-header > div.naver {
+header>div.naver {
   width: 10%;
   margin-left: 15%;
   font-weight: 500;
   font-size: 23px;
 }
 
-header > div.naver > a > span {
+header>div.naver>a>span {
   font-size: 18px;
   font-weight: 900;
 }
 
-header > div.search {
+header>div.search {
   margin-left: 0;
   margin-right: 31%;
   border: 1px solid #eeeeee;
@@ -57,7 +59,7 @@ header > div.search {
   align-items: center;
 }
 
-header > div.search > input {
+header>div.search>input {
   border-width: 0;
   width: 70%;
   outline: 0;
@@ -75,16 +77,18 @@ h1 {
   margin: 0;
   font-size: 18px;
 }
+
 hr {
   background: #eeeeee;
   height: 1px;
   border: 0;
 }
-div.second > div {
+
+div.second>div {
   width: 17%;
 }
 
-div.second > nav {
+div.second>nav {
   background-color: white;
   width: 12%;
   height: 100%;
@@ -93,7 +97,7 @@ div.second > nav {
   margin-top: 75px;
 }
 
-div.second > nav > div.menu-main > ul {
+div.second>nav>div.menu-main>ul {
   width: 100%;
   height: 340px;
   display: flex;
@@ -105,16 +109,18 @@ div.second > nav > div.menu-main > ul {
   font-size: 18px;
   padding: 3px;
 }
-div.second > nav > div.menu-main > ul > li {
+
+div.second>nav>div.menu-main>ul>li {
   width: 100%;
   padding: 5px 0px 5px 30px;
 }
-div.second > nav > div.menu-main > ul > li:hover {
+
+div.second>nav>div.menu-main>ul>li:hover {
   background-color: #f7f8f9;
   border-radius: 10px;
 }
 
-div.second > nav > div.menu-cafe > ul {
+div.second>nav>div.menu-cafe>ul {
   width: 100%;
   height: 200px;
   display: flex;
@@ -125,63 +131,72 @@ div.second > nav > div.menu-cafe > ul {
   font-size: 14px;
   padding: 25px;
 }
-div.second > nav > div.menu-cafe > ul > li {
+
+div.second>nav>div.menu-cafe>ul>li {
   width: 100%;
   padding-left: 2px;
 }
-div.second > nav > div.menu-cafe > ul > li > a:hover {
+
+div.second>nav>div.menu-cafe>ul>li>a:hover {
   text-decoration: underline;
 }
 
-div.second > section.main-section {
+div.second>section.main-section {
   width: 41%;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding: 30px 40px;
+  margin-top: 75px;
 }
 
-section.main-section > article > div.title {
+section.main-section>article>div.title {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
 }
+
 h3 {
   font-size: 16px;
   display: inline-block;
 }
-article.best3 > div.popular-image,
-article.best3 > div.popular-title,
-article.best3 > div.popular-description {
+
+article.best3>div.popular-image,
+article.best3>div.popular-title,
+article.best3>div.popular-description {
   display: flex;
   justify-content: space-between;
 }
 
-article.best3 > div.popular-image > div > a > img {
+article.best3>div.popular-image>div>a>img {
   width: 95%;
   border-radius: 15px;
 }
 
-article.best3 > div.popular-title > div {
+article.best3>div.popular-title>div {
   width: 100%;
   margin-right: 3;
 }
-article.best3 > div.popular-title > div > a > span {
+
+article.best3>div.popular-title>div>a>span {
   text-align: left;
   font-weight: 600;
   font-size: 12px;
 }
-article.best3 > div.popular-title > div > a > span:hover {
+
+article.best3>div.popular-title>div>a>span:hover {
   text-decoration: underline;
 }
-article.best3 > div.popular-description > div {
+
+article.best3>div.popular-description>div {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-article.best3 > div.popular-description > div > a > span {
+
+article.best3>div.popular-description>div>a>span {
   color: #a2a2a2;
   font-size: 10px;
 }
@@ -189,105 +204,121 @@ article.best3 > div.popular-description > div > a > span {
 article.popular-remain {
   margin-top: 20px;
 }
-article.popular-remain > div {
+
+article.popular-remain>div {
   display: flex;
   justify-content: space-between;
 }
-article.popular-remain > div > div.popular-title > a > span {
+
+article.popular-remain>div>div.popular-title>a>span {
   font-size: 13px;
 }
-article.popular-remain > div > div.popular-title > div.popular-description > a {
+
+article.popular-remain>div>div.popular-title>div.popular-description>a {
   color: #a2a2a2;
   font-size: 10px;
 }
-article.popular-remain
-  > div
-  > div.popular-title
-  > div.popular-description
-  > a
-  > span:hover {
+
+article.popular-remain>div>div.popular-title>div.popular-description>a>span:hover {
   text-decoration: underline;
 }
-article.popular-remain > div > div.popular-image {
+
+article.popular-remain>div>div.popular-image {
   width: 60px;
   height: 40px;
 }
-article.popular-remain > div > div.popular-image > a > img {
+
+article.popular-remain>div>div.popular-image>a>img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
 
-article.neighbor > div {
+article.neighbor>div {
   margin-top: 20px;
 }
 
-article.neighbor > div > a > p {
+article.neighbor>div>a>p {
   font-size: 13px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-article.neighbor > div > a > p:hover {
+
+article.neighbor>div>a>p:hover {
   text-decoration: underline;
 }
-article.neighbor > div > div.location > a {
+
+article.neighbor>div>div.location>a {
   color: #a2a2a2;
   font-size: 10px;
 }
-article.by-subject > nav {
+
+article.by-subject>nav {
   height: 30px;
   margin-top: 8px;
 }
-article.by-subject > nav > ul {
+
+article.by-subject>nav>ul {
   display: flex;
   justify-content: space-between;
 }
-article.by-subject > nav > ul > li {
+
+article.by-subject>nav>ul>li {
   padding: 5px 3px;
 }
-article.by-subject > nav > ul > li > a {
+
+article.by-subject>nav>ul>li>a {
   color: #a2a2a2;
   font-weight: 400;
 }
-article.by-subject > div.cafe-info {
+
+article.by-subject>div.cafe-info {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
-article.by-subject > div.cafe-info > div > img {
+
+article.by-subject>div.cafe-info>div>img {
   width: 80px;
   height: 80px;
   border: 1px solid #eeeeee;
   border-radius: 25px;
 }
+
 .subject-title {
   margin: 0 auto;
   padding-top: 10px;
 }
-.subject-title > a > span {
-  font-size: 13px;
+
+.subject-title>a>span {
+  font-size: 15px;
   font-weight: 600;
 }
-.subject-title > a > span:hover {
+
+.subject-title>a>span:hover {
   text-decoration: underline;
 }
-.subject-title > a > p {
-  font-size: 12px;
+
+.subject-title>a>p {
+  font-size: 13px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.cafe-grade > a > span {
+
+.cafe-grade>a>span {
   color: #a2a2a2;
   font-size: 10px;
 }
+
 aside {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 25px;
   width: 20%;
+  margin-top: 75px;
 }
 
 #login {
@@ -296,25 +327,31 @@ aside {
   justify-content: center;
   align-items: center;
   border: 1px solid #eeeeee;
-  border-radius: 25px;
-  height: 5%;
+  border-radius: 15px;
+  height: 6%;
   margin-bottom: 20px;
 }
+
 #login-box {
   background-color: #03c75a;
   color: white;
   font-weight: 600;
   border-radius: 5px;
   width: 80%;
-  height: 30%;
+  height: 40%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 7px;
   margin-bottom: 10px;
 }
+
 #login-other {
   color: #a2a2a2;
-  font-size: 10px;
+  font-size: 12px;
 }
+
 #notice {
   background-color: #f7f8f9;
   border-radius: 10px;
@@ -324,20 +361,24 @@ aside {
   margin-bottom: 20px;
   height: 7%;
 }
-#notice > span > strong {
+
+#notice>span>strong {
   font-size: 13px;
   margin-left: 20px;
 }
-#notice > p {
+
+#notice>p {
   font-size: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0 20px 3px 20px;
 }
-#notice > p:hover {
+
+#notice>p:hover {
   text-decoration: underline;
 }
+
 #cafe-logo,
 #heart-logo,
 #smart-bot {
@@ -346,56 +387,67 @@ aside {
   height: 2.5%;
   margin-bottom: 20px;
 }
-#cafe-logo > a,
-#heart-logo > a,
-#smart-bot > a {
+
+#cafe-logo>a,
+#heart-logo>a,
+#smart-bot>a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 100%;
 }
-#cafe-logo > a > div > img,
-#heart-logo > a > div > img,
-#smart-bot > a > div > img {
+
+#cafe-logo>a>div>img,
+#heart-logo>a>div>img,
+#smart-bot>a>div>img {
   margin: 0 10px;
   width: 35px;
   height: 35px;
 }
-#cafe-logo > a > span > strong,
-#heart-logo > a > span > strong,
-#smart-bot > a > span > strong {
+
+#cafe-logo>a>span>strong,
+#heart-logo>a>span>strong,
+#smart-bot>a>span>strong {
   font-size: 14px;
 }
-#cafe-logo > a > span > strong:hover,
-#heart-logo > a > span > strong:hover,
-#smart-bot > a > span > strong:hover {
+
+#cafe-logo>a>span>strong:hover,
+#heart-logo>a>span>strong:hover,
+#smart-bot>a>span>strong:hover {
   text-decoration: underline;
 }
+
 #ad {
   margin-bottom: 20px;
 }
-#ad > a > img {
+
+#ad>a>img {
   border: 1px solid #eeeeee;
   border-radius: 10px;
   width: 100%;
 }
+
 #report-center {
   font-size: 14px;
 }
+
 #report-center:hover {
   text-decoration: underline;
 }
+
 footer {
   font-size: 10px;
 }
-footer > span:hover {
+
+footer>span:hover {
   text-decoration: underline;
 }
+
 #buttonLogin {
   margin-right: 18%;
 }
 
-#buttonLogin > button {
+#buttonLogin>button {
   background-color: white;
   margin-right: 10px;
   border: 1px solid rgb(219, 217, 217);
@@ -411,26 +463,32 @@ footer > span:hover {
   background-color: #e8f8eb;
   border-radius: 10px;
 }
+
 .green-text {
   color: #009f47;
 }
+
 #time {
   color: gray;
   font-style: italic;
 }
+
 .gray-background {
   background-color: #eeeeee;
   border-radius: 10px;
 }
+
 #black-text {
   color: black;
   font-weight: 400;
 }
+
 #button-more {
   margin-top: 20px;
   text-align: center;
 }
-#button-more > button {
+
+#button-more>button {
   width: 80px;
   height: 40px;
   border-radius: 25px;
@@ -438,20 +496,25 @@ footer > span:hover {
   border: 1px solid #eeeeee;
   font-weight: 400;
 }
+
 #fix-header {
   position: fixed;
   height: 75px;
   width: 100%;
 }
+
 .fa-magnifying-glass {
   color: #03c75a;
 }
+
 .fa-question {
   font-size: 10px;
 }
+
 .fa-caret-down {
   font-size: 8px;
 }
+
 #fix-div {
   width: 29%;
 }
