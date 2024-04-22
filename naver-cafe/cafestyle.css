@@ -23,6 +23,23 @@ p {
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+  display: inline-block;
+}
+
+hr {
+  background: #eeeeee;
+  height: 1px;
+  border: 0;
+}
+
+/* top */
 header {
   background-color: white;
   border-bottom: 1px solid #eeeeee;
@@ -46,6 +63,23 @@ header>div.naver>a>span {
   font-weight: 900;
 }
 
+#buttonLogin {
+  margin-right: 18%;
+}
+
+#buttonLogin>button {
+  background-color: white;
+  margin-right: 10px;
+  border: 1px solid rgb(219, 217, 217);
+}
+
+#fix-header {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+}
+
+/* top-search */
 header>div.search {
   margin-left: 0;
   margin-right: 31%;
@@ -67,27 +101,35 @@ header>div.search>input {
   font-size: 15px;
 }
 
+#button-search {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.fa-magnifying-glass {
+  color: #03c75a;
+}
+
+.fa-question {
+  font-size: 10px;
+}
+
+.fa-caret-down {
+  font-size: 8px;
+}
+
+/* middle */
 div.second {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-h1 {
-  margin: 0;
-  font-size: 18px;
-}
-
-hr {
-  background: #eeeeee;
-  height: 1px;
-  border: 0;
-}
-
 div.second>div {
   width: 17%;
 }
 
+/* middle-left-nav */
 div.second>nav {
   background-color: white;
   width: 12%;
@@ -97,6 +139,11 @@ div.second>nav {
   margin-top: 75px;
 }
 
+#fix-div {
+  width: 29%;
+}
+
+/* middle-left-nav-top */
 div.second>nav>div.menu-main>ul {
   width: 100%;
   height: 340px;
@@ -120,6 +167,17 @@ div.second>nav>div.menu-main>ul>li:hover {
   border-radius: 10px;
 }
 
+.green-background {
+  width: 100%;
+  background-color: #e8f8eb;
+  border-radius: 10px;
+}
+
+.green-text {
+  color: #009f47;
+}
+
+/* middle-left-nav-bottom */
 div.second>nav>div.menu-cafe>ul {
   width: 100%;
   height: 200px;
@@ -141,6 +199,7 @@ div.second>nav>div.menu-cafe>ul>li>a:hover {
   text-decoration: underline;
 }
 
+/* middle-section */
 div.second>section.main-section {
   width: 41%;
   border-right: 1px solid #eeeeee;
@@ -157,11 +216,12 @@ section.main-section>article>div.title {
   margin-top: 30px;
 }
 
-h3 {
-  font-size: 16px;
-  display: inline-block;
+#time {
+  color: gray;
+  font-style: italic;
 }
 
+/* popular best 3 */
 article.best3>div.popular-image,
 article.best3>div.popular-title,
 article.best3>div.popular-description {
@@ -201,6 +261,7 @@ article.best3>div.popular-description>div>a>span {
   font-size: 10px;
 }
 
+/* popular-remain */
 article.popular-remain {
   margin-top: 20px;
 }
@@ -234,6 +295,7 @@ article.popular-remain>div>div.popular-image>a>img {
   border-radius: 5px;
 }
 
+/* neighbor */
 article.neighbor>div {
   margin-top: 20px;
 }
@@ -254,6 +316,7 @@ article.neighbor>div>div.location>a {
   font-size: 10px;
 }
 
+/* by-subject */
 article.by-subject>nav {
   height: 30px;
   margin-top: 8px;
@@ -273,13 +336,23 @@ article.by-subject>nav>ul>li>a {
   font-weight: 400;
 }
 
+.gray-background {
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+#black-text {
+  color: black;
+  font-weight: 400;
+}
+
 article.by-subject>div.cafe-info {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-article.by-subject>div.cafe-info>div>img {
+article.by-subject>div.cafe-info>div>a>img {
   width: 80px;
   height: 80px;
   border: 1px solid #eeeeee;
@@ -312,6 +385,21 @@ article.by-subject>div.cafe-info>div>img {
   font-size: 10px;
 }
 
+#button-more {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#button-more>button {
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  font-weight: 400;
+}
+
+/* aside */
 aside {
   display: flex;
   flex-direction: column;
@@ -321,6 +409,7 @@ aside {
   margin-top: 75px;
 }
 
+/* login-box */
 #login {
   display: flex;
   flex-direction: column;
@@ -352,6 +441,7 @@ aside {
   font-size: 12px;
 }
 
+/* notice */
 #notice {
   background-color: #f7f8f9;
   border-radius: 10px;
@@ -379,6 +469,7 @@ aside {
   text-decoration: underline;
 }
 
+/* aside-remain */
 #cafe-logo,
 #heart-logo,
 #smart-bot {
@@ -435,86 +526,15 @@ aside {
   text-decoration: underline;
 }
 
+/* footer */
 footer {
-  font-size: 10px;
+  font-size: 12px;
 }
 
-footer>span:hover {
+footer>a>span:hover {
   text-decoration: underline;
 }
 
-#buttonLogin {
-  margin-right: 18%;
-}
-
-#buttonLogin>button {
-  background-color: white;
-  margin-right: 10px;
-  border: 1px solid rgb(219, 217, 217);
-}
-
-#button-search {
-  margin: 10px;
-  font-size: 16px;
-}
-
-.green-background {
-  width: 100%;
-  background-color: #e8f8eb;
-  border-radius: 10px;
-}
-
-.green-text {
-  color: #009f47;
-}
-
-#time {
-  color: gray;
-  font-style: italic;
-}
-
-.gray-background {
-  background-color: #eeeeee;
-  border-radius: 10px;
-}
-
-#black-text {
-  color: black;
-  font-weight: 400;
-}
-
-#button-more {
-  margin-top: 20px;
-  text-align: center;
-}
-
-#button-more>button {
-  width: 80px;
-  height: 40px;
-  border-radius: 25px;
-  background-color: white;
-  border: 1px solid #eeeeee;
-  font-weight: 400;
-}
-
-#fix-header {
-  position: fixed;
-  height: 75px;
-  width: 100%;
-}
-
-.fa-magnifying-glass {
-  color: #03c75a;
-}
-
-.fa-question {
-  font-size: 10px;
-}
-
-.fa-caret-down {
-  font-size: 8px;
-}
-
-#fix-div {
-  width: 29%;
+footer>p>strong>a:hover {
+  text-decoration: underline;
 }
